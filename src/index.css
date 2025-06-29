@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply font-system;
+  background-color: purple;
+}
+
+.platform {
+  transition: right 0.3s;
+  position: relative;
+}
+
+.body {
+  background-color: white !important;
+}
+
+/* aboutpage */
+@keyframes slide-down-left {
+  0% {
+    opacity: 0;
+    transform: translateY(-1000px) translateX(0);
+    /* Start from top */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) translateX(40px);
+    /* End 40px from the left */
+  }
+}
+
+.animate-slide-down-left {
+  animation: slide-down-left 10s ease-out forwards;
+  /* 10 seconds animation */
+  animation-delay: 0.8s;
+  /* Optional delay */
+}
+
+.flip-card {
+  perspective: 1000px;
+  /* Gives depth to the 3D flip */
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  /* Hide back when flipped */
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+}
+
+.flip-card-front {
+  z-index: 2;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  /* Initially, the back of the card is flipped */
+}
+
+.group:hover .flip-card-front {
+  transform: rotateY(-180deg);
+  /* Flip front on hover */
+}
+
+.group:hover .flip-card-back {
+  transform: rotateY(0);
+  /* Show the back image */
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+@keyframes slideRightUp {
+  0% {
+    transform: translateX(80px) translateY(20px);
+    opacity: 0;
+  }
+
+  60% {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0) translateY(-10px);
+    opacity: 1;
+  }
+}
+
+.animate-slideRightUp {
+  animation: slideRightUp 0.8s ease-out forwards;
+}
+
+/* Hide scrollbars across site */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+@keyframes floating-heart {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-120vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.animate-floating-heart {
+  animation: floating-heart 12s infinite linear;
+}

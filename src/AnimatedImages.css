@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .image-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+  
+  /* 1. Fade */
+  .fade img {
+    animation: fadeIn 4s ease-in-out infinite alternate;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+  
+  /* 2. Breathe */
+  .breathe img {
+    animation: breathe 3s ease-in-out infinite;
+  }
+  
+  @keyframes breathe {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  
+  /* 3. Wips */
+  .wips img {
+    animation: swipeZoom 5s ease-in-out infinite;
+  }
+  
+  @keyframes swipeZoom {
+    0% { transform: translateX(-10%) scale(1); }
+    50% { transform: translateX(10%) scale(1.1); }
+    100% { transform: translateX(-10%) scale(1); }
+  }
+  
+  /* 4. Digital Glitch */
+  .digital img {
+    animation: glitch 2s infinite;
+  }
+  
+  @keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(2px, -2px); }
+    60% { transform: translate(-1px, 1px); }
+    80% { transform: translate(1px, -1px); }
+    100% { transform: translate(0); }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
