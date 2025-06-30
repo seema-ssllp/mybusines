@@ -16,7 +16,7 @@ import poweh2 from "../assets/abc3.jpg";
 // import power4 from "../assets/group2.jpeg";
 import pwer1 from "../assets/nn.jpg";
 import power8 from "../assets/abc.jpg";
-import pwer2 from "../assets/a2.jpeg";
+import pwer2 from "../assets/abc.jpg";
 // import pwer3 from "../assets/man1.jpg";
 import pwer5 from "../assets/abc2.jpg";
 import pwer4 from "../assets/abc2.jpg";// ✅ Add your permanent background image here
