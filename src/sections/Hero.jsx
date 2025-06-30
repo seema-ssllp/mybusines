@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import con1 from "../assets/a3.jpeg";
+import con1 from "../assets/a5.jpg";
 import con6 from "../assets/a5.jpg";
 import gallery from "../assets/a4.jpg";
 import gallery1 from "../assets/a5.jpg";
