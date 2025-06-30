@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import aboutBg from "../assets/a4.JPG";
 import aboutImg from "../assets/mnager.jpg";
-import img1 from "../assets/v5.jpg";
+import img1 from "../assets/v5.JPG";
 import img2 from "../assets/v3.jpg";
 import img3 from "../assets/vishu1.jpeg";
 import img4 from "../assets/a5.JPG";
