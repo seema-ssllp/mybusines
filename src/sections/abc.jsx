@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import aboutBg from "../assets/a4.jpg";
+import aboutBg from "../assets/a4.JPG";
 import aboutImg from "../assets/mnager.jpg";
 import img1 from "../assets/v5.jpg";
 import img2 from "../assets/v3.jpg";

@@ -1,6 +1,6 @@
 import React from "react";
 import bride from "../assets/abc2.jpg";
-import floralBg from "../assets/a4.jpg";
+import floralBg from "../assets/a4.JPG";
 import { motion } from "framer-motion";
 
 const BridalWeddingClean = () => {
