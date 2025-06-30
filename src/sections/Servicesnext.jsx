@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import hero from "../assets/a5.jpg";
-import couple from "../assets/a5.jpg";
-import slide1 from "../assets/a5.jpg";
-import slide2 from "../assets/a5.jpg";
-import slide3 from "../assets/a5.jpg";
-import slide4 from "../assets/a5.jpg";
+import hero from "../assets/a5.JPG";
+import couple from "../assets/a5.JPG";
+import slide1 from "../assets/a5.JPG";
+import slide2 from "../assets/a5.JPG";
+import slide3 from "../assets/a5.JPG";
+import slide4 from "../assets/a5.JPG";
 
 const images = [slide1, slide2, slide3, slide4];
 

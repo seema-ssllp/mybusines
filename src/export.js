@@ -1,7 +1,7 @@
-import building from "../src/assets/a5.jpg";
-import construction from "../src/assets/a5.jpg";
-import design from "../src/assets/a5.jpg";
-import document from "../src/assets/a5.jpg";
+import building from "../src/assets/a5.JPG";
+import construction from "../src/assets/a5.JPG";
+import design from "../src/assets/a5.JPG";
+import document from "../src/assets/a5.JPG";
 
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { MdOutlineDesignServices } from "react-icons/md";
@@ -9,7 +9,7 @@ import { FaRegBuilding } from "react-icons/fa";
 import { FaSitemap } from "react-icons/fa";
 
 
-import client3 from "../src/assets/a5.jpg";
+import client3 from "../src/assets/a5.JPG";
 export const allservices = [
   {
     icon: building,

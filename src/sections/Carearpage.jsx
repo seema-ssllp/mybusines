@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import carear1 from "../assets/br1.jpg"; // Main background image
 import { FaWhatsapp } from "react-icons/fa";
-import carear from "../assets/a5.jpg";
+import carear from "../assets/a5.JPG";
 const jobOpenings = [
   {
     designation: "Electrical Engineer",

@@ -1,13 +1,13 @@
 
-import backgroundImg from "../assets/a5.jpg";
-import bgImage from "../assets/a5.jpg";
-import topimg from "../assets/a5.jpg";
+import backgroundImg from "../assets/a5.JPG";
+import bgImage from "../assets/a5.JPG";
+import topimg from "../assets/a5.JPG";
 
-import generationImg from "../assets/a5.jpg";
-import transmissionImg from "../assets/a5.jpg";
-import distributionImg from "../assets/a5.jpg";
-import maintenanceImg from "../assets/a5.jpg";
-import sustainabilityImg from "../assets/a5.jpg";
+import generationImg from "../assets/a5.JPG";
+import transmissionImg from "../assets/a5.JPG";
+import distributionImg from "../assets/a5.JPG";
+import maintenanceImg from "../assets/a5.JPG";
+import sustainabilityImg from "../assets/a5.JPG";
 
 const sections = [
   {

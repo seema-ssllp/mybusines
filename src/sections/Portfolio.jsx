@@ -1,22 +1,22 @@
 import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 
-import project1 from "../assets/a5.jpg";
-import project2 from "../assets/a5.jpg";
-import project3 from "../assets/a5.jpg";
-import project4 from "../assets/a5.jpg";
-import project5 from "../assets/a5.jpg";
-import project6 from "../assets/a5.jpg";
-import project7 from "../assets/a5.jpg";
-import project8 from "../assets/a5.jpg";
-import project9 from "../assets/a5.jpg";
-import project10 from "../assets/a5.jpg";
-import project15 from "../assets/a5.jpg";
-import project14 from "../assets/a5.jpg";
-import project12 from "../assets/a5.jpg";
-import project16 from "../assets/a5.jpg";
-import Purvanchal from "../assets/a5.jpg";
-import maq from "../assets/a5.jpg";
+import project1 from "../assets/a5.JPG";
+import project2 from "../assets/a5.JPG";
+import project3 from "../assets/a5.JPG";
+import project4 from "../assets/a5.JPG";
+import project5 from "../assets/a5.JPG";
+import project6 from "../assets/a5.JPG";
+import project7 from "../assets/a5.JPG";
+import project8 from "../assets/a5.JPG";
+import project9 from "../assets/a5.JPG";
+import project10 from "../assets/a5.JPG";
+import project15 from "../assets/a5.JPG";
+import project14 from "../assets/a5.JPG";
+import project12 from "../assets/a5.JPG";
+import project16 from "../assets/a5.JPG";
+import Purvanchal from "../assets/a5.JPG";
+import maq from "../assets/a5.JPG";
 // import Purvanchal2 from "../assets/rbhart.jpeg";
 
 import { slideUpVariants, zoomInVariants } from "./animation";

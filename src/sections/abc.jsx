@@ -5,7 +5,7 @@ import aboutImg from "../assets/mnager.jpg";
 import img1 from "../assets/v5.jpg";
 import img2 from "../assets/v3.jpg";
 import img3 from "../assets/vishu1.jpeg";
-import img4 from "../assets/a5.jpg";
+import img4 from "../assets/a5.JPG";
 import img5 from "../assets/mnager.jpg"; // Extra image to make slider scrollable
 
 const images = [img1, img2, img3, img4, img5]; // 5 images for sliding

@@ -6,23 +6,23 @@ import { FaSearch } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 
-import gallery1 from "../assets/a5.jpg";
-import gallery2 from "../assets/a5.jpg";
-import gallery3 from "../assets/a5.jpg";
-import gallery4 from "../assets/a5.jpg";
-import gallery5 from "../assets/a5.jpg";
-import gallery6 from "../assets/a5.jpg";
-import client2 from "../assets/a5.jpg";
-import client3 from "../assets/a5.jpg";
-import client4 from "../assets/a5.jpg";
+import gallery1 from "../assets/a5.JPG";
+import gallery2 from "../assets/a5.JPG";
+import gallery3 from "../assets/a5.JPG";
+import gallery4 from "../assets/a5.JPG";
+import gallery5 from "../assets/a5.JPG";
+import gallery6 from "../assets/a5.JPG";
+import client2 from "../assets/a5.JPG";
+import client3 from "../assets/a5.JPG";
+import client4 from "../assets/a5.JPG";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
-import client5 from "../assets/a5.jpg";
-import client6 from "../assets/a5.jpg";
+import client5 from "../assets/a5.JPG";
+import client6 from "../assets/a5.JPG";
 
-import client7 from "../assets/a5.jpg";
+import client7 from "../assets/a5.JPG";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
