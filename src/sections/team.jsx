@@ -6,7 +6,7 @@ import bg from '../assets/v5.JPG';
 import ring from '../assets/v6.JPG';
 import invite from '../assets/v6.JPG';
 import dance from '../assets/v6.JPG';
-import danceBg from '../assets/v2.jpg';
+import danceBg from '../assets/v2.JPG';
 // import invite from "../assets/v5.JPG";
 const teamMembers = [
   {
