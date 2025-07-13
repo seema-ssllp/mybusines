@@ -39,7 +39,7 @@ const WeddingSection1 = () => (
         className="text-6xl font-extrabold text-white tracking-widest"
         style={{ textShadow: '3px 3px #ff69b4' }}
       >
-        💍 Seema & Rajat
+        💍 nisha & Rajat
       </h1>
       <p className="text-white mt-4 text-xl font-medium animate-pulse">
         Two hearts, one journey

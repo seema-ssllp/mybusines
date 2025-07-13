@@ -5,24 +5,24 @@ import img3 from "../assets/ji7.jpg";
 import bgImage from "../assets/ji7.jpg";
 
 const slides = [
-  { id: 1, image: img1, title: "Powering Rural Development", subtitle: "Transforming villages with reliable electricity access" },
-  { id: 2, image: img2, title: "Urban Energy Solutions", subtitle: "Modern grids for modern cities" },
-  { id: 3, image: img3, title: "Smart Infrastructure Projects", subtitle: "Empowering growth with technology-driven energy systems" },
+  { id: 1, image: img1, title: "Wedding ", subtitle: "quit" },
+  { id: 2, image: img2, title: "Wedding Girl", subtitle: "Wedding  makup" },
+  { id: 3, image: img3, title: "Wedding  day", subtitle: "  makup wedding girl" },
 ];
 
 const usersData = [
-  { partyName: "URVASI INFRATECH PVT LTD(DLF)" },
-  { partyName: "URVASI INFRATECH PVT LTD(DLF)" },
-  { partyName: "URVASI INFRATECH PVT LTD(DLF)" },
+  { partyName: "Wedding Girl Wedding Girl" },
+  { partyName: "Wedding Girl Wedding Girl" },
+  { partyName: "Wedding Girl Wedding Girl" },
 ];
 
 const privateProjectsData = [
-  { partyName: "GreenTech Pvt Ltd" },
-  { partyName: "City Grid Electricals" },
-  { partyName: "Tech Power Solutions" },
-  { partyName: "Energize Solutions" },
+  { partyName: "Wedding Girl" },
+  { partyName: "Wedding Girl" },
+  { partyName: "Wedding Girl" },
+  { partyName: "Wedding Girl" },
   { partyName: "Bright Future Energy" },
-  { partyName: "Volt Power Systems" },
+  { partyName: "Wedding Girl" },
 ];
 
 const Suucesfullpage = () => {
@@ -67,7 +67,7 @@ const Suucesfullpage = () => {
       {/* Project Section */}
       <div className="bg-white py-10">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-3xl font-bold mb-10 text-center text-gray-800">Successful Projects</h1>
+          <h1 className="text-3xl font-bold mb-10 text-center text-gray-800">Wedding Girl</h1>
 
           {/* Project Selector Cards */}
           <div
@@ -75,7 +75,7 @@ const Suucesfullpage = () => {
             style={{ backgroundImage: `url(${bgImage})` }}
           >
             <div className="p-10 relative z-10 flex justify-between items-center gap-6">
-              {[{ title: "Government Project", key: "government" }, { title: "Private Project", key: "private" }].map((card, index) => (
+              {[{ title: "Wedding Gallery", key: "government" }, { title: "single wedding pic", key: "private" }].map((card, index) => (
                 <div
                   key={index}
                   className="group perspective w-[40%] h-56 mt-20 cursor-pointer"
@@ -99,7 +99,7 @@ const Suucesfullpage = () => {
               className="mt-10 px-6 py-10 bg-gradient-to-br from-white via-pink-50 to-rose-100 rounded-3xl shadow-2xl max-w-7xl mx-auto"
             >
               <h2 className="text-3xl font-bold text-center text-rose-500 mb-10">
-                {selectedProject === "government" ? "Govt Projects" : "Private Projects"}
+                {selectedProject === "government" ? "Wedding Gallery" : "single wedding pic"}
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-2 sm:px-4">

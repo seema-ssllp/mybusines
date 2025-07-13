@@ -36,7 +36,7 @@ const WeddingPage = () => {
           />
           <div className="absolute inset-0 bg-black/40 z-10" />
           <div className="relative z-20 h-full flex flex-col justify-center items-center text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold">Seema & Rahul</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">nisha & Rahul</h1>
             <p className="mt-2 text-sm md:text-base">Together Forever Starts Here</p>
           </div>
         </div>
@@ -107,7 +107,7 @@ const WeddingPage = () => {
 
       {/* 5. Footer */}
       <footer className="bg-pink-900 text-white text-center py-6">
-        <p>&copy; {new Date().getFullYear()} Designed for Seema & Rahul's Wedding Celebration</p>
+        <p>&copy; {new Date().getFullYear()} Designed for nisha & Rahul's Wedding Celebration</p>
       </footer>
     </div>
   );
