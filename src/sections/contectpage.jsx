@@ -6,31 +6,31 @@ const cards = [
   {
     title: "Address",
     icon: <MapPin />,
-    text: "Corporate Park A1 Tower 9th Floor Office No.903 Sector 142 Noida UP-201305",
-    bg: "bg-gradient-to-r from-yellow-400 to-orange-500",
+    text: " Service areaPunjab, India Himachal Pradesh, IndiaNew Delhi, Delhi, IndiaNoida, Uttar Pradesh, India",
+    bg: "bg-red-900",
   },
   {
     title: "Call Us",
     icon: <Phone />,
     text: (
-    <>
-      +91 9027365069<br />
-      +91 8287869219  +91 1206085352
-    </>
-  ),
-    bg: "bg-gradient-to-r from-blue-400 to-indigo-500",
+      <>
+        090151 19289<br />
+
+      </>
+    ),
+    bg: "bg-green-500",
   },
   {
     title: "Email",
     icon: <Mail />,
-    text: "Maverickpowersolution3@gmail.com",
+    text: "jatinkumar268@gmail.com",
     bg: "bg-gradient-to-r from-green-400 to-emerald-500",
   },
   {
     title: "Open Hours",
     icon: <Clock />,
-    text: "Monday - Saturday \n  09:30 AM - 6:00 PM",
-    bg: "bg-gradient-to-r from-pink-400 to-rose-500",
+    text: "Open with main hours   Monday Open 24 hours Tuesday Open 24 hours Wednesday Open 24 hours Thursday Open 24 hours Friday Open 24 hours Saturday Open 24 hours Sunday Open 24 hours   ",
+    bg: "bg-purple-500",
   },
 ];
 
