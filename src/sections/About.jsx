@@ -43,7 +43,7 @@ const ArtistHero = () => {
             textShadow: "1px 1px 3px #000000", fontSize: "42px", whiteSpace: "nowrap"
 
           }}>
-            Jitin Studio
+            product
           </h1>
 
 
@@ -52,7 +52,7 @@ const ArtistHero = () => {
 
 
           <p className="text-sm text-gray-500 leading-relaxed">
-            Step into  Jitin Studio, where passion meets precision in every frame. With expertise spanning portraits, landscapes, and events, our award-winning studio transforms moments into timeless treasures. Let us capture your story with creativity and flair, ensuring memories that last a lifetime.
+            Step into  product, where passion meets precision in every frame. With expertise spanning portraits, landscapes, and events, our award-winning studio transforms moments into timeless treasures. Let us capture your story with creativity and flair, ensuring memories that last a lifetime.
           </p>
           <button className="mt-4 px-6 py-2 rounded-full border border-black hover:bg-white hover:text-black transition duration-300 text-xs sm:text-sm tracking-widest">
             GET Enquiry

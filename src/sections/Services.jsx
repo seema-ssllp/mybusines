@@ -24,7 +24,7 @@ const Services = () => {
         >
           <div className="backdrop-blur-md bg-white/30 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-4xl w-full text-center text-white">
             <h1 className="text-5xl font-extrabold tracking-wider text-white drop-shadow-md mb-4" style={{ fontFamily: "'Great Vibes', cursive" }}>
-              Jitin & Priya
+              product & Priya
             </h1>
             <p className="text-lg font-light mb-10">
               We invite you to celebrate the beginning of our forever.

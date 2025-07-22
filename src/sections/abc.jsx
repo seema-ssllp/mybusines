@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 import aboutBg from "../assets/a4.JPG";
-import aboutImg from "../assets/mnager.jpg";
+import aboutImg from "../assets/manager.jpg";
 import img1 from "../assets/v5.JPG";
 import img2 from "../assets/v3.JPG";
 import img3 from "../assets/vishu1.jpeg";
 import img4 from "../assets/a5.JPG";
-import img5 from "../assets/mnager.jpg"; // Extra image to make slider scrollable
+import img5 from "../assets/manager.jpg"; // Extra image to make slider scrollable
 
 const images = [img1, img2, img3, img4, img5]; // 5 images for sliding
 

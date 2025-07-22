@@ -41,7 +41,7 @@ const BridalWeddingClean = () => {
             className="text-4xl md:text-5xl font-bold mb-4 text-white"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Jitin ❤️ Priya
+            product ❤️ Priya
           </h2>
           <p className="mb-6 text-base md:text-lg text-white/90 leading-relaxed">
             Celebrate a beautiful journey of love, elegance, and tradition. Our hearts are full, and you're invited to witness our forever.

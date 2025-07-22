@@ -6,7 +6,7 @@ const cards = [
   {
     title: "Address",
     icon: <MapPin />,
-    text: " Service areaPunjab, India Himachal Pradesh, IndiaNew Delhi, Delhi, IndiaNoida, Uttar Pradesh, India",
+    text: "  All  India Service",
     bg: "bg-red-900",
   },
   {
@@ -14,7 +14,7 @@ const cards = [
     icon: <Phone />,
     text: (
       <>
-        090151 19289<br />
+        8005163696<br />
 
       </>
     ),
@@ -23,13 +23,13 @@ const cards = [
   {
     title: "Email",
     icon: <Mail />,
-    text: "jatinkumar268@gmail.com",
+    text: "business.seema800516@gmail.com",
     bg: "bg-gradient-to-r from-green-400 to-emerald-500",
   },
   {
     title: "Open Hours",
     icon: <Clock />,
-    text: "Open with main hours   Monday Open 24 hours Tuesday Open 24 hours Wednesday Open 24 hours Thursday Open 24 hours Friday Open 24 hours Saturday Open 24 hours Sunday Open 24 hours   ",
+    text: "Open 24 hours     ",
     bg: "bg-purple-500",
   },
 ];
@@ -89,7 +89,7 @@ const Contactpage = () => {
           transition={{ duration: 0.6 }}
           className="lg:w-1/2 w-full bg-gray-100 p-8 rounded-xl shadow-lg"
         >
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">Get In Touch</h2>
+          <h2 className="text-3xl font-bold mb-6 text-gray-800">Contact Us</h2>
           <form className="flex flex-col gap-4">
             <input
               type="text"
@@ -111,7 +111,7 @@ const Contactpage = () => {
               placeholder="Your Message"
               className="px-4 py-3 rounded-lg border border-gray-400"
             />
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg">
+            <button className="bg-purple-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg">
               SUBMIT
             </button>
           </form>
@@ -119,20 +119,7 @@ const Contactpage = () => {
       </div>
 
       {/* Google Map Section */}
-      <div className="mt-16 bg-gray-100 py-12 m-auto">
-        <div className="lg:w-[85%] w-full m-auto grid grid-cols-1 md:grid-cols-1 gap-8 items-center">
-          <div className="rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              className="w-full h-[400px] rounded-xl"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.439987162213!2d81.0428574746834!3d26.794240362385215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be3f658b69c47%3A0xd59ee9d04a40a0a4!2sTiwariganj%2C%20Uttar%20Pradesh%20226028!5e0!3m2!1sen!2sin!4v1715677773333!5m2!1sen!2sin"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Lucknow Map"
-            ></iframe>
-          </div>
-        </div>
-      </div>
+
 
       {/* Multi-step form */}
 

@@ -35,30 +35,30 @@ const Header = () => {
     { link: "About Us", path: "/about" },
     { link: "services", path: "/services" },
     { link: "Gallery", path: "/gallery" },
-    { link: "Wedding Event", path: "/team-members" },
-    { link: "Wedding Albums", path: "/successful-project" },
+    { link: "Products", path: "/team-members" },
+    { link: "Portfolio", path: "/successful-project" },
     // { link: "Full wedding setup", path: "/resources" },
-    { link: "Complete wedding services", path: "/carearpage" },
-    { link: "Contact", path: "/contact" },
+    { link: "Client", path: "/carearpage" },
+    { link: "online Internship", path: "/contact" },
 
   ];
   const managementMembers = [
-    { name: "Naushad Ali", role: "Managing Director" },
-    { name: "Pankhuri Rai", role: "Lead Operations" },
+    { name: "abc", role: "abd" },
+    { name: "ab", role: "ab" },
   ];
 
   const secondRow = [
     {
-      title: "Technical Team",
-      members: [{ name: "Shameem Hussain", role: "Sr Manager Technical" }],
+      title: "a",
+      members: [{ name: "a", role: "a" }],
     },
     {
-      title: "Operations Team",
-      members: [{ name: "Pankaj Sanga", role: "Manager Operations" }],
+      title: "a",
+      members: [{ name: "a", role: "a" }],
     },
     {
-      title: "Finance Team",
-      members: [{ name: "Shahnawaz", role: "Finance Manager" }],
+      title: "a",
+      members: [{ name: "a", role: "a" }],
     },
   ];
 
@@ -68,7 +68,7 @@ const Header = () => {
 
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
         <img
-          src="/p1.png"
+          src="/me3.png"
           alt="Banner"
           style={{
             height: "100px",

@@ -3,11 +3,12 @@ import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import con1 from "../assets/a5.JPG";
-import con6 from "../assets/a5.JPG";
-import gallery from "../assets/a4.JPG";
-import gallery1 from "../assets/a5.JPG";
-import gallery2 from "../assets/a5.JPG";
+import con1 from "../assets/see8.JPG";
+
+import gallery from "../assets/see12.JPG";
+import gallery1 from "../assets/see10.JPG";
+import gallery2 from "../assets/see11.JPG";
+import con6 from "../assets/see9.JPG";
 import { slideUpVariants, zoomInVariants } from "./animation";
 
 const Hero = () => {
@@ -73,10 +74,12 @@ const Hero = () => {
         >
           <motion.h1
             variants={slideUpVariants}
-            className="text-white text-2xl mt-20 font-bold"
+            className="text-white text-lg mt-20 "
             style={{ fontFamily: "-moz-initial" }}
           >
-            National Renowned & Delhi Most Trusted<br /> Photographer & Cinematographer
+            I create high-quality, professional websites tailored to your needs.<br />Along with that,
+
+            I offer expert online training in web development and  <br />artificial intelligence (AI), helping you build a strong digital future.
           </motion.h1>
 
           <motion.h1
@@ -89,8 +92,8 @@ const Hero = () => {
                 fontFamily: "-moz-initial",
               }}
             >
-              <p className="text-3xl" style={{ fontSize: "42px", whiteSpace: "nowrap" }}>
-                Jitin Studio<br /><p className="mt-4">Royal Wedding</p>
+              <p className="text-md" style={{ fontSize: "24px", whiteSpace: "nowrap" }}>
+                "High-Quality Websites & Expert <br></br> Online Training in AI & Web Development"
               </p>
             </div>
           </motion.h1>

@@ -6,21 +6,21 @@ import { FaWhatsapp } from "react-icons/fa";
 import carear from "../assets/a5.JPG";
 const jobOpenings = [
   {
-    designation: "Electrical Engineer",
+    designation: "none",
     positions: 4,
-    experience: "5 + years",
-    industry: "Power Plant Industrial Electricity System",
+    experience: "none",
+    industry: "none",
     location:
-      "Corporate Park A1 Tower 9th Floor Office No.903 Sector 142 Noida UP-201305",
+      "Lucknow",
   },
   {
-    designation: "Chartered Accountant",
-    Department: "Financial Accounting",
+    designation: "none",
+    Department: "none",
     positions: 2,
-    experience: "5 + years",
-    industry: "Power Plant Industrial Electricity System",
+    experience: "none",
+    industry: "none",
     location:
-      "Corporate Park A1 Tower 9th Floor Office No.903 Sector 142 Noida UP-201305",
+      "none",
   },
 ];
 
