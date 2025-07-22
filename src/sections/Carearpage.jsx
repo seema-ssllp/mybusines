@@ -49,7 +49,7 @@ const Carearpage = () => {
               CAREER
             </h1>
             <p className="text-md md:text-xl font-light">
-              Join our passionate team and grow your future with usyes.
+              Join our passionate team and grow your future with usyes.j yes i run the ai
             </p>
           </div>
         </div>
