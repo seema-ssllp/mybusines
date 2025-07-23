@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import con1 from "../assets/see8.JPG";
+import con1 from "../assets/see8.jpg";
 
-import gallery from "../assets/see12.JPG";
-import gallery1 from "../assets/see10.JPG";
-import gallery2 from "../assets/see11.JPG";
-import con6 from "../assets/see9.JPG";
+import gallery from "../assets/see12.jpg";
+import gallery1 from "../assets/see10.jpg";
+import gallery2 from "../assets/see11.jpg";
+import con6 from "../assets/see9.jpg";
 import { slideUpVariants, zoomInVariants } from "./animation";
 
 const Hero = () => {
