@@ -25,7 +25,7 @@ const slideUpVariants = {
 
 const Testimonials = () => {
   return (
-    <div id="clients" className="w-full h-screen">
+    <div id="clients" className="w-full h-0">
       <motion.div
         initial="hidden"
         whileInView="visible"
