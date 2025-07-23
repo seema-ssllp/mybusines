@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-import aboutBg from "../assets/a4.JPG";
-import aboutImg from "../assets/manager.jpg";
-import img1 from "../assets/v5.JPG";
-import img2 from "../assets/v3.JPG";
-import img3 from "../assets/vishu1.jpeg";
-import img4 from "../assets/a5.JPG";
-import img5 from "../assets/manager.jpg"; // Extra image to make slider scrollable
+import aboutBg from "../assets/about.jpg";
+import aboutImg from "../assets/s3.jpg";
+import img1 from "../assets/aaaa.jpg";
+import img2 from "../assets/sec.jpg";
+import img3 from "../assets/see6.jpg";
+import img4 from "../assets/see10.jpg";
+import img5 from "../assets/sec.jpg"; // Extra image to make slider scrollable
 
 const images = [img1, img2, img3, img4, img5]; // 5 images for sliding
 
@@ -36,7 +36,7 @@ const Abc = () => {
       >
         <div className="absolute inset-0 bg-black/60"></div>
         <h1 className="relative z-10 text-4xl md:text-6xl font-bold text-emerald-400">
-          About Me
+          About Us
         </h1>
       </div>
 
@@ -47,33 +47,35 @@ const Abc = () => {
             <img
               src={aboutImg}
               alt="About"
-              className="rounded-xl shadow-xl w-full max-w-md h-auto object-cover"
+              className="rounded-xl shadow-xl w-full max-w-md h-96 object-cover"
             />
           </div>
 
           <div className="w-full md:w-1/2 text-gray-800">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Who We Are</h2>
-            <div className="text-base md:text-lg leading-relaxed space-y-4">
+            <h2 className="text-lg md:text-xl font-bold mb-4"> About Us</h2>
+            <div className="text-base md:text-sm leading-relaxed space-y-4">
               <p>
-                We specialize in crafting elegant wedding experiences filled with
-                love, beauty, and timeless moments.
-              </p>
-              <p>
-                Our mission is to bring your dream celebration to life with personalized details and heartfelt planning.
-              </p>
-              <p>
-                Every love story is unique. That's why we tailor our services to reflect your individual journey, culture, and style.
-              </p>
-              <p>
-                From venue selection to floral designs, every element is meticulously curated to leave lasting impressions.
-              </p>
-              <p>
-                Our experienced team walks beside you at every step — ensuring your vision is seamlessly transformed into reality.
-              </p>
+                Top-Rated Web & Mobile App Development Company
 
-              <p>
-                Let us be a part of your journey — where dreams meet flawless execution.
+                At JANKIWEB INFOTECH, we blend innovation with technology to deliver top-tier solutions in Web Design, App Development, Digital Marketing, Product Design, and Cloud Services.
+
+                With 30+ successful projects and collaborations across multiple industries, we specialize in creating powerful digital experiences that align with your business goals.
+
+
               </p>
+              <h2 className="text-lg md:text-xl font-bold mb-4"> 🌟 Why Choose SG CODER</h2>
+
+              ✅ 30+ Projects Delivered with proven results<br />
+
+              ✅ Multiple Client Engagements with long-term partnerships<br />
+
+              ✅ Expertise in Custom Website & Mobile App Development<br />
+
+              ✅ End-to-End Design Solutions – from PPTs, Posters, Ads to Social Media Graphics<br />
+
+              ✅ Dedicated team for Branding, UI/UX, SEO, and Online Campaigns<br />
+
+              ✅ Strong reputation for on-time delivery, affordable pricing, and quality assurance<br />
             </div>
           </div>
         </div>

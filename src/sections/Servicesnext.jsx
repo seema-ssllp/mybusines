@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import hero from "../assets/a5.JPG";
-import couple from "../assets/a5.JPG";
-import slide1 from "../assets/a5.JPG";
+import hero from "../assets/a1.jpg";
+import couple from "../assets/a2.jpg";
+import slide1 from "../assets/a3.jpg";
 import slide2 from "../assets/a5.JPG";
 import slide3 from "../assets/a5.JPG";
 import slide4 from "../assets/a5.JPG";
@@ -36,22 +36,28 @@ const WeddingPage = () => {
           />
           <div className="absolute inset-0 bg-black/40 z-10" />
           <div className="relative z-20 h-full flex flex-col justify-center items-center text-center text-white px-4">
-            <h1 className="text-4xl md:text-5xl font-bold">nisha & Rahul</h1>
-            <p className="mt-2 text-sm md:text-base">Together Forever Starts Here</p>
+            <h1 className="text-4xl md:text-5xl font-bold">Services</h1>
+            <p className="mt-2 text-sm md:text-base">App Development, Digital Marketing, Product Design, and Cloud Services.</p>
           </div>
         </div>
       </section>
 
       {/* 2. About Couple - New Design */}
-      <section className="py-20 bg-gradient-to-b from-pink-50 to-white">
+      <section className="py-20 bg-gradient-to-b from-white to-white">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
           <div>
-            <h2 className="text-4xl font-bold text-pink-800 mb-4">Our Love Story</h2>
+            <h2 className="text-4xl font-bold text-pink-800 mb-4">💡 What We Offer:
+            </h2>
             <p className="text-gray-700 text-sm">
-              We first met under the stars, and from that day, every moment has been magical.
-              From awkward first hellos to late night long calls, we've grown, laughed, and
-              dreamed together. Now we're ready to start the next beautiful chapter.
+              <div className="mb-2">🌐 Responsive Web Design & Development</div>
+              <div className="mb-2">📱 iOS & Android App Development</div>
+              <div className="mb-2">📊 Interactive Corporate Presentations & Pitch Decks (PPTs)</div>
+              <div className="mb-2">🖼️ Branding – Logo, Posters, Banners, Ads</div>
+              <div className="mb-2">📣 Digital Marketing – SEO, SMM, Google Ads</div>
+              <div className="mb-2">☁️ Cloud & Hosting Solutions</div>
+              <div>🎯 Social Media Management & Content Creation</div>
             </p>
+
           </div>
           <img src={couple} alt="Couple" className="rounded-3xl shadow-xl" />
         </div>
