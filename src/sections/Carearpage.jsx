@@ -1,9 +1,9 @@
 import React from "react";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import carear1 from "../assets/br1.jpg"; // Main background image
+import carear1 from "../assets/aa.jpg"; // Main background image
 import { FaWhatsapp } from "react-icons/fa";
-import carear from "../assets/a5.JPG";
+import carear from "../assets/gal8.jpg";
 const jobOpenings = [
   {
     designation: "none",
@@ -118,7 +118,7 @@ const Carearpage = () => {
             Want to Apply or Have Questions?
           </h2>
           <p className="mb-6 text-lg drop-shadow-sm">
-            Connect with us instantly on WhatsApp!
+            new
           </p>
           <a
             href={`https://wa.me/91${phoneNumber}`}

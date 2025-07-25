@@ -106,7 +106,7 @@ const Header = () => {
           >
             <Link
               to={item.path}
-              className="text-white capitalize font-medium cursor-pointer px-2 py-1 text-md hover:bg-yellow-500  hover:text-black rounded-full"
+              className="text-white capitalize font-medium cursor-pointer px-2 py-1 text-md hover:bg-pink-500  hover:text-black rounded-full"
               spy={true}
               offset={-100}
               smooth={true}
@@ -122,7 +122,7 @@ const Header = () => {
             {item.link === "Gallery" && (
               <div className="absolute left-1/2 -translate-x-1/2 top-[100%] w-[700px] h-[400px] bg-white shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-auto rounded-xl p-6">
                 <div className="text-center">
-                  <h2 className="relative inline-block text-xl font-semibold mb-6 bg-gradient-to-r from-yellow-400 to-red-500 text-transparent bg-clip-text after:content-[''] after:absolute after:left-0 after:bottom-[-6px] after:h-[3px] after:w-full after:bg-gradient-to-r after:from-yellow-400 after:to-red-500">
+                  <h2 className="relative inline-block text-xl font-semibold mb-6 bg-gradient-to-r from-pink-500 to-red-500 text-transparent bg-clip-text after:content-[''] after:absolute after:left-0 after:bottom-[-6px] after:h-[3px] after:w-full after:bg-gradient-to-r after:from-pink-600 after:to-red-500">
                     Gallery
                   </h2>
                 </div>
