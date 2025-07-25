@@ -1,10 +1,10 @@
 import React from 'react';
-import shameemImg from '../assets/v6.JPG';
+import shameemImg from '../assets/pr6.jpg';
 import pankajImg from '../assets/v6.JPG';
 import shahnawazImg from '../assets/v6.JPG';
-import bg from '../assets/v5.JPG';
-import ring from '../assets/v6.JPG';
-import invite from '../assets/v6.JPG';
+import bg from '../assets/pr6.jpg';
+import ring from '../assets/pr5.jpg';
+import invite from '../assets/about.jpg';
 import dance from '../assets/v6.JPG';
 import danceBg from '../assets/v2.JPG';
 // import invite from "../assets/v5.JPG";
@@ -39,10 +39,10 @@ const WeddingSection1 = () => (
         className="text-6xl font-extrabold text-white tracking-widest"
         style={{ textShadow: '3px 3px #ff69b4' }}
       >
-        💍 nisha & Rajat
+        Products Offer
       </h1>
       <p className="text-white mt-4 text-xl font-medium animate-pulse">
-        Two hearts, one journey
+        "Time-Bound Delivery with 24/7 Trusted Service – Only at SG Coder!"
       </p>
     </div>
   </section>
@@ -55,6 +55,7 @@ const WeddingSection2 = () => (
     style={{ backgroundImage: `url(${ring})` }}
   >
     <div className="absolute inset-0 bg-gradient-to-tr " />
+
 
     <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
       {[...Array(12)].map((_, i) => (
@@ -75,17 +76,15 @@ const WeddingSection2 = () => (
     <div className="relative z-10 bg-white/10 backdrop-blur-sm p-12 px-20 rounded-3xl border border-white/30 shadow-[0_10px_60px_rgba(255,105,180,0.4)] animate-fade-glow">
       <div className="text-center space-y-6">
         <h2
-          className="text-6xl md:text-7xl font-extrabold text-white tracking-wide"
+          className="text-xl md:text-3xl font-extrabold text-white tracking-wide"
           style={{ textShadow: '2px 2px 8px rgba(255,192,203,0.9)' }}
         >
-          💍 Engagement Ceremony
+          "30+ Projects Successfully Completed and Delivered"
         </h2>
-        <p className="text-2xl md:text-3xl font-medium text-white">
-          📅 Save the Date: <span className="text-yellow-300 font-bold">12th Dec 2025</span>
+        <p className="text-2xl md:text-xl font-medium text-white">
+          Explore our portfolio to see the quality and diversity of our delivered projects.
         </p>
-        <p className="text-xl md:text-2xl text-white">
-          📍 Venue: <span className="text-pink-200 font-semibold">Taj Mahal Palace</span>
-        </p>
+
       </div>
     </div>
   </section>

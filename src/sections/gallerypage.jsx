@@ -1,25 +1,25 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import img1 from "../assets/ji3.jpg";
-import img2 from "../assets/ji1.jpg";
-import img3 from "../assets/ji2.jpg";
-import img4 from "../assets/ji4.jpg";
-import img5 from "../assets/ji5.jpg"
+import img1 from "../assets/gal.jpg";
+import img2 from "../assets/gal1.jpg";
+import img3 from "../assets/gal3.jpg";
+import img4 from "../assets/gal5.jpg";
+import img5 from "../assets/gal6.jpg"
 // import img9 from "../assets/staff2.jpeg"
-import img12 from "../assets/ji6.jpg";
-import img10 from "../assets/ji7.jpg"
-import img11 from "../assets/ji8.jpg"
-import bgImage from "../assets/ji9.png";
-import powerh1 from "../assets/ab2.jpg";
-import poweh2 from "../assets/abc3.jpg";
+import img12 from "../assets/gal8.jpg";
+import img10 from "../assets/gal9.jpg"
+import img11 from "../assets/gal10.jpg"
+import bgImage from "../assets/gal11.jpg";
+import powerh1 from "../assets/gal12.jpg";
+import poweh2 from "../assets/gal13.jpg";
 // import power4 from "../assets/group2.jpeg";
-import pwer1 from "../assets/nn.jpg";
-import power8 from "../assets/abc.jpg";
-import pwer2 from "../assets/abc.jpg";
+import pwer1 from "../assets/gal14.jpg";
+import power8 from "../assets/gal1.jpg";
+import pwer2 from "../assets/gal15.jpg";
 // import pwer3 from "../assets/man1.jpg";
-import pwer5 from "../assets/abc2.jpg";
-import pwer4 from "../assets/abc2.jpg";// ✅ Add your permanent background image here
+import pwer5 from "../assets/new1.jpg";
+import pwer4 from "../assets/gal1.jpg";// ✅ Add your permanent background image here
 
 const galleryImages = [
   { id: 1, src: powerh1, title: "" },
@@ -72,39 +72,10 @@ const Gallerypage = () => {
         {/* 40% Transparent Overlay */}
         <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
 
-        {/* Text Animations */}
-        {/* <motion.div
-        key={"text1-" + current}
-        initial={{ x: "-100%", opacity: 0 }}
-        animate={{ x: "30%", opacity: 1, translateX: "-40%" }}
-        transition={{ duration: 2 }}
-        className="absolute top-1/3 right-1/3 z-20 text-6xl font-bold text-white rounded-md"
-      >
-        Maverick Power Solutions
-      </motion.div>
 
-      <motion.div
-        key={"text2-" + current}
-        initial={{ x: "-100%", opacity: 0 }}
-        animate={{ x: "50%", opacity: 1, translateX: "-50%" }}
-        transition={{ duration: 2, delay: 0.2 }}
-        className="absolute top-1/2 left-52 text-2xl text-bold  text-white rounded-md"
-        style={{ fontFamily: "-moz-initial" }}
-      >
-        Power house structures often set the foundation for industrial or public
-       <br></br>
-        In modern development, a gallery construction project follows strict
-       <br></br>
-        It emphasizes optimal lighting, climate control, and adaptable display
-       <br></br>
-        Durable, eco-friendly materials are used to ensure both longevity and
-  .<br></br>
-        Security, accessibility, and aesthetic balance are key to a successful
-        .<br></br>
-      </motion.div> */}
 
         {/* Arrow Buttons */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/1 flex gap-4 z-20">
+        <div className="absolute bottom-4  transform -translate-x-1/1 flex gap-4 z-20">
           <motion.button
             onClick={prevImage}
             whileTap={{ y: 10 }}
