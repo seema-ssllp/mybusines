@@ -92,11 +92,24 @@ const Hero = () => {
                 fontFamily: "-moz-initial",
               }}
             >
-              <p className="text-md" style={{ fontSize: "24px", whiteSpace: "nowrap" }}>
-                "High-Quality Websites & Expert <br></br> Online Training in AI & Web Development"
+              <p
+                className="
+        text-sm               // mobile
+        sm:text-base
+        md:text-lg
+        lg:text-xl
+        xl:text-2xl
+        2xl:text-3xl
+        whitespace-normal
+        text-left             // ensure left alignment
+        px-2
+      "
+              >
+                "High-Quality Websites & Expert <br /> Online Training in AI & Web Development"
               </p>
             </div>
           </motion.h1>
+
 
           <motion.div
             initial="hidden"

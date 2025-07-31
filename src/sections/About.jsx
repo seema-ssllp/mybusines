@@ -36,27 +36,46 @@ const ArtistHero = () => {
         />
 
         {/* ✍️ Text Content */}
-        <div className="space-y-6 z-10 text-center md:text-left px-2">
+        <div className="space-y-6 z-10 text-center lg:text-left px-2">
 
-          <h1 className="text-md sm:text-5xl leading-[1.2] font-[serif] text-purple-900 lowercase font-bold" style={{
-            textShadow: "1px 1px 3px #000000", fontSize: "25px", whiteSpace: "nowrap"
-
-          }}>
+          <h1
+            className="
+      text-xl           // base font size
+      sm:text-2xl       // small devices
+      md:text-3xl       // medium devices
+      lg:text-xl       // large devices
+      leading-snug
+      font-[serif]
+      text-purple-900
+      lowercase
+      font-bold
+      whitespace-normal // allows wrapping
+    "
+            style={{
+              textShadow: "1px 1px 3px #000000",
+            }}
+          >
             "Crafting Smart, Scalable, and Stunning Web Solutions."
           </h1>
 
-
-
-
-
-
-          <p className="text-sm text-gray-500 leading-relaxed">
+          <p className="text-sm sm:text-base text-gray-500 leading-relaxed">
             I’m a passionate freelance full-stack web developer, dedicated to turning complex ideas into powerful digital experiences. With expertise in modern technologies like React.js, Node.js, MongoDB, and Tailwind CSS, I deliver fast, responsive, and user-friendly websites tailored to your unique needs.
           </p>
-          <button className="mt-4 px-6 py-2 rounded-full border border-black hover:bg-white hover:text-black transition duration-300 text-xs sm:text-sm tracking-widest">
+
+          <button className="
+    mt-4
+    px-6 py-2
+    rounded-full
+    border border-black
+    hover:bg-white hover:text-black
+    transition duration-300
+    text-xs sm:text-sm
+    tracking-widest
+  ">
             GET Enquiry
           </button>
         </div>
+
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
 import { useState, useEffect, useRef } from "react";
-import img1 from "../assets/aa.jpg";
-import img2 from "../assets/aa.jpg";
+import img1 from "../assets/des.jpg";
+import img2 from "../assets/des2.jpg";
 import img3 from "../assets/st3.jpg";
-import bgImage from "../assets/st.jpg";
+import bgImage from "../assets/des1.jpg";
 
 const slides = [
   { id: 1, image: img1, title: "SG CODER ", subtitle: "quit" },
-  { id: 2, image: img2, title: "SG CODER SG CODER", subtitle: "SG CODER  makup" },
-  { id: 3, image: img3, title: "SG CODER  day", subtitle: "  makup wedding girl" },
+  { id: 2, image: img2, title: "SG CODER SG CODER", subtitle: "SG CODER  the company" },
+  { id: 3, image: img3, title: "SG CODER  day", subtitle: "  the company" },
 ];
 
 const usersData = [
