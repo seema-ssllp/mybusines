@@ -4,7 +4,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import con1 from "../assets/see8.jpg";
-
 import gallery from "../assets/see12.jpg";
 import gallery1 from "../assets/see10.jpg";
 import gallery2 from "../assets/see11.jpg";
@@ -65,21 +64,24 @@ const Hero = () => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 w-full lg:h-[700px] m-auto lg:px-[150px] px-[20px] flex justify-between items-center lg:flex-row flex-col lg:gap-5 gap-[50px]">
+      <div className="relative z-10 w-full lg:h-[700px] m-auto px-4 sm:px-6 md:px-10 lg:px-[150px] flex justify-between items-center lg:flex-row flex-col lg:gap-5 gap-8 sm:gap-12 py-10">
         <motion.div
           initial="hidden"
           whileInView="visible"
           variants={slideUpVariants}
-          className="lg:w-[60%] w-full flex flex-col justify-center items-start lg:gap-8 gap-4"
+          className="lg:w-[60%] w-full flex flex-col justify-center items-start gap-4 sm:gap-6"
         >
           <motion.h1
             variants={slideUpVariants}
-            className="text-white text-lg mt-20 "
+            className="text-white text-base sm:text-lg"
             style={{ fontFamily: "-moz-initial" }}
           >
-            I create high-quality, professional websites tailored to your needs.<br />Along with that,
-
-            I offer expert online training in web development and  <br />artificial intelligence (AI), helping you build a strong digital future.
+            I create high-quality, professional websites tailored to your needs.
+            <br />
+            Along with that, I offer expert online training in web development
+            and <br />
+            artificial intelligence (AI), helping you build a strong digital
+            future.
           </motion.h1>
 
           <motion.h1
@@ -94,33 +96,33 @@ const Hero = () => {
             >
               <p
                 className="
-        text-sm               // mobile
-        sm:text-base
-        md:text-lg
-        lg:text-xl
-        xl:text-2xl
-        2xl:text-3xl
-        whitespace-normal
-        text-left             // ensure left alignment
-        px-2
-      "
+                  text-sm
+                  sm:text-base
+                  md:text-lg
+                  lg:text-xl
+                  xl:text-2xl
+                  2xl:text-3xl
+                  whitespace-normal
+                  text-left
+                  px-1 sm:px-2
+                "
               >
-                "High-Quality Websites & Expert <br /> Online Training in AI & Web Development"
+                "High-Quality Websites & Expert <br />
+                Online Training in AI & Web Development"
               </p>
             </div>
           </motion.h1>
-
 
           <motion.div
             initial="hidden"
             whileInView="visible"
             variants={zoomInVariants}
-            className="flex justify-normal items-center gap-5"
+            className="flex flex-wrap sm:flex-nowrap justify-start items-center gap-3 sm:gap-5"
           >
             <Link to="/about">
               <motion.button
                 variants={zoomInVariants}
-                className="border border-white hover:bg-[#732255] hover:text-white px-10 py-3 rounded-lg text-white font-bold transition duration-300 bg-transparent"
+                className="border border-white hover:bg-[#732255] hover:text-white px-5 sm:px-7 md:px-10 py-2 sm:py-3 rounded-lg text-white font-bold transition duration-300 bg-transparent text-sm sm:text-base whitespace-nowrap"
                 style={{ fontFamily: "-moz-initial" }}
               >
                 READ MORE
@@ -129,7 +131,7 @@ const Hero = () => {
             <Link to="/contact">
               <motion.button
                 variants={zoomInVariants}
-                className="border-white hover:bg-[#732255] hover:text-white  border-2 px-10 py-3 rounded-lg text-white font-bold"
+                className="border-white hover:bg-[#732255] hover:text-white border-2 px-5 sm:px-7 md:px-10 py-2 sm:py-3 rounded-lg text-white font-bold text-sm sm:text-base whitespace-nowrap"
                 style={{ fontFamily: "-moz-initial" }}
               >
                 REACH US

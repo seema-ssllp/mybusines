@@ -1,14 +1,6 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import img1 from "../assets/des.jpg";
-import img2 from "../assets/des2.jpg";
-import img3 from "../assets/st3.jpg";
 import bgImage from "../assets/des1.jpg";
-
-const slides = [
-  { id: 1, image: img1, title: "SG CODER ", subtitle: "quit" },
-  { id: 2, image: img2, title: "SG CODER SG CODER", subtitle: "SG CODER  the company" },
-  { id: 3, image: img3, title: "SG CODER  day", subtitle: "  the company" },
-];
 
 const usersData = [
   { partyName: "SG CODER SG CODER SG CODER SG CODER" },
@@ -27,8 +19,6 @@ const privateProjectsData = [
 
 const Suucesfullpage = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-  const [current, setCurrent] = useState(0);
-
   const section4Ref = useRef(null);
   const section5Ref = useRef(null);
 
@@ -42,13 +32,6 @@ const Suucesfullpage = () => {
     }, 100);
   };
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
   const skills = [
     "React.js", "Redux", "JavaScript", "Express.js", "MongoDB",
     "RESTful API", "Tailwind CSS", "HTML/CSS", "Bootstrap",
@@ -57,66 +40,51 @@ const Suucesfullpage = () => {
 
   return (
     <>
-      {/* Hero Section (Slider) */}
-      <div className="relative h-[80vh] overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center transition-all duration-700 ease-in-out"
-          style={{ backgroundImage: `url(${slides[current].image})` }}
-        ></div>
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div className="relative z-10 h-full flex flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fadeInUp">{slides[current].title}</h1>
-          <p className="text-lg md:text-2xl animate-fadeInUp delay-200">{slides[current].subtitle}</p>
+      {/* Hero Section (Static) */}
+      <div
+        className="h-[70vh] bg-cover bg-center relative flex items-center justify-center text-white text-center px-4"
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="relative z-10">
+          <h1 className="text-4xl sm:text-5xl font-bold">SG CODER</h1>
+          <p className="text-lg sm:text-2xl mt-4">Your Trusted Development Partner</p>
         </div>
       </div>
 
       {/* Project Cards */}
-      <div className="bg-white py-10">
-        <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-3xl font-bold mb-10 text-center text-gray-800">SG CODER SG CODER</h1>
-          <div
-            className="relative h-96 bg-cover bg-center bg-no-repeat rounded-xl overflow-hidden"
-            style={{ backgroundImage: `url(${bgImage})` }}
-          >
-            <div className="p-10 relative z-10 flex justify-between items-center gap-6">
-              {[{ title: "SG CODER Gallery", key: "government" }, { title: "new", key: "private" }].map((card, index) => (
-                <div
-                  key={index}
-                  className="group perspective w-[40%] h-56 mt-20 cursor-pointer"
-                  onClick={() => handleCardClick(card.key)}
-                >
-                  <div className="relative w-full h-40 transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-180">
-                    <div className="absolute w-full h-full bg-gradient-to-r from-rose-500 to-pink-400 backdrop-blur-md border border-white/40 rounded-xl shadow-2xl text-white px-4 py-5 transform backface-hidden">
-                      <p className="text-3xl mt-10 font-bold drop-shadow-lg">{card.title}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+      <div className="py-12 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">Our Projects Clients</h2>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            {[{ title: "SG CODER Gallery", key: "government" }, { title: "Private Clients", key: "private" }].map((card, index) => (
+              <div
+                key={index}
+                onClick={() => handleCardClick(card.key)}
+                className="bg-gradient-to-tr from-rose-500 to-pink-400 text-white w-full sm:w-1/3 py-8 px-6 text-center rounded-xl shadow-lg cursor-pointer hover:scale-105 transition-transform"
+              >
+                <h3 className="text-xl font-semibold">{card.title}</h3>
+              </div>
+            ))}
           </div>
 
-          {/* Selected Project Gallery */}
           {selectedProject && (
             <section
               ref={selectedProject === "government" ? section4Ref : section5Ref}
-              id={selectedProject === "government" ? "section-4" : "section-5"}
-              className="mt-10 px-6 py-10 bg-gradient-to-br from-white via-pink-50 to-rose-100 rounded-3xl shadow-2xl max-w-7xl mx-auto"
+              className="mt-16 px-4 py-10 bg-gradient-to-br from-white via-pink-50 to-rose-100 rounded-3xl shadow-2xl"
             >
-              <h2 className="text-3xl font-bold text-center text-rose-500 mb-10">
-                {selectedProject === "government" ? "SG CODER Gallery" : "new"}
+              <h2 className="text-2xl sm:text-3xl font-bold text-center text-rose-600 mb-10">
+                {selectedProject === "government" ? "Clients Review" : "Happy Clients  "}
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-2 sm:px-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {(selectedProject === "government" ? usersData : privateProjectsData).map((item, index) => (
                   <div
                     key={index}
-                    className="relative group w-full h-[22rem] md:h-[26rem] overflow-hidden rounded-2xl shadow-2xl transform hover:scale-105 transition duration-700 ease-in-out"
+                    className="relative group h-[20rem] bg-cover bg-center rounded-xl shadow-lg overflow-hidden"
+                    style={{ backgroundImage: `url(${img1})` }}
                   >
-                    <div
-                      className="w-full h-full bg-cover bg-center"
-                      style={{ backgroundImage: `url(${img1})` }}
-                    ></div>
-                    <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center text-white text-lg md:text-xl font-bold text-center px-2">
-                      {item.partyName.split(" ").slice(0, 3).join(" ")}
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 text-white text-lg font-semibold text-center px-2">
+                      {item.partyName}
                     </div>
                   </div>
                 ))}
@@ -126,21 +94,20 @@ const Suucesfullpage = () => {
         </div>
       </div>
 
-      {/* Static Portfolio Content */}
+      {/* About + Skills + Experience */}
       <div className="font-sans">
-        <section className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-4">Hi, I'm Seema Gupta</h1>
-            <p className="text-xl">Front-End Developer | MERN Stack Enthusiast</p>
-            <p className="mt-4 text-lg">
-              Passionate about building intuitive, user-friendly applications with modern web technologies.
-            </p>
-            <div className="mt-6">
-              <a href="mailto:seemagupta8005@gmail.com" className="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold">
-                Contact Me
-              </a>
-            </div>
-          </div>
+        <section className="bg-indigo-600 text-white py-20 px-6 text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Hi, I'm Seema Gupta</h1>
+          <p className="text-xl">Front-End Developer | MERN Stack Enthusiast</p>
+          <p className="mt-4 max-w-2xl mx-auto text-lg">
+            Passionate about building intuitive, user-friendly applications with modern web technologies.
+          </p>
+          <a
+            href="mailto:seemagupta8005@gmail.com"
+            className="inline-block mt-6 bg-white text-purple-700 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-purple-100"
+          >
+            Contact Me
+          </a>
         </section>
 
         <section className="py-20 bg-gray-100 px-6">
@@ -158,7 +125,7 @@ const Suucesfullpage = () => {
         <section className="py-20 bg-white px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">Skills</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg">
               {skills.map((skill, index) => (
                 <span key={index}>{skill}</span>
               ))}

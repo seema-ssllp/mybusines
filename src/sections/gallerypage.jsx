@@ -74,23 +74,7 @@ const Gallerypage = () => {
 
 
 
-        {/* Arrow Buttons */}
-        <div className="absolute bottom-4  transform -translate-x-1/1 flex gap-4 z-20">
-          <motion.button
-            onClick={prevImage}
-            whileTap={{ y: 10 }}
-            className="bg-white/70 px-4 py-2 rounded-full text-xl hover:bg-orange-400"
-          >
-            ⬅️
-          </motion.button>
-          <motion.button
-            onClick={nextImage}
-            whileTap={{ y: 10 }}
-            className="bg-white/70 px-4 py-2 rounded-full text-xl hover:bg-orange-400"
-          >
-            ➡️
-          </motion.button>
-        </div>
+
       </div>
 
 
